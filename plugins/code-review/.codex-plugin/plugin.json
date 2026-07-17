@@ -1,6 +1,6 @@
 {
   "name": "code-review",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Review diffs and entire codebases, then iterate on implementation work until every relevant check is clean.",
   "author": {
     "name": "Eastechs",
@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/code-review",
   "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "license": "MIT",
   "keywords": [
     "code-review",
     "audit",

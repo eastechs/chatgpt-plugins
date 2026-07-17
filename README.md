@@ -47,3 +47,7 @@ python3 scripts/validate_all.py
 ```
 
 Each plugin is independently versioned under `plugins/<plugin-name>/`. Runtime files and references must stay inside their owning plugin so every marketplace entry remains independently installable.
+
+## License
+
+Released under the [MIT License](LICENSE).

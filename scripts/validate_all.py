@@ -16,6 +16,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PLUGINS_ROOT = ROOT / "plugins"
 MARKETPLACE_PATH = ROOT / ".agents" / "plugins" / "marketplace.json"
+LICENSE_PATH = ROOT / "LICENSE"
 NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 SEMVER_RE = re.compile(
     r"^(0|[1-9]\d*)\."
@@ -141,6 +142,8 @@ def validate_plugin(plugin_root: Path, errors: list[str]) -> int:
         errors.append(f"{label} folder and manifest names must match kebab-case")
     if version is not None and SEMVER_RE.fullmatch(version) is None:
         errors.append(f"{label} version is not strict semver")
+    if manifest.get("license") != "MIT":
+        errors.append(f"{label} manifest license must be MIT")
     if manifest.get("skills") != "./skills/":
         errors.append(f"{label} manifest skills path must be ./skills/")
     if "hooks" in manifest:
@@ -195,6 +198,8 @@ def walk_strings(value: Any):
 
 def main() -> int:
     errors: list[str] = []
+    if not LICENSE_PATH.is_file():
+        errors.append("repository is missing LICENSE")
     marketplace = load_json(MARKETPLACE_PATH, errors)
     entries: list[Any] = []
     if marketplace is not None:

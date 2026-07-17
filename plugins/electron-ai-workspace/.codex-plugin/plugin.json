@@ -1,6 +1,6 @@
 {
   "name": "electron-ai-workspace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add multi-provider AI, model pricing, vector search, and persistent AI SDK conversations to Electron desktop apps.",
   "author": {
     "name": "Eastechs",
@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/electron-ai-workspace",
   "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "license": "MIT",
   "keywords": [
     "electron",
     "ai-sdk",

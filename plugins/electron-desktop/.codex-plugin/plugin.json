@@ -1,6 +1,6 @@
 {
   "name": "electron-desktop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build production Electron desktop apps with a local HTTP stack, embedded Postgres, secure settings, native integrations, and signed macOS distribution.",
   "author": {
     "name": "Eastechs",
@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/electron-desktop",
   "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "license": "MIT",
   "keywords": [
     "electron",
     "desktop",

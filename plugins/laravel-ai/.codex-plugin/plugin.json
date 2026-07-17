@@ -1,6 +1,6 @@
 {
   "name": "laravel-ai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build Laravel AI agents, tools, and Vercel AI SDK streaming integrations.",
   "author": {
     "name": "Eastechs",
@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/laravel-ai",
   "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "license": "MIT",
   "keywords": [
     "laravel",
     "ai",

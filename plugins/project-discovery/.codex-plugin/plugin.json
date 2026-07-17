@@ -1,6 +1,6 @@
 {
   "name": "project-discovery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interrogate product ideas, inspect existing projects, and turn discoveries into concrete plans and documentation.",
   "author": {
     "name": "Eastechs",
@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/project-discovery",
   "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "license": "MIT",
   "keywords": [
     "planning",
     "discovery",
