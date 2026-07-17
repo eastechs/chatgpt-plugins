@@ -1,0 +1,36 @@
+{
+  "name": "project-discovery",
+  "version": "0.1.0",
+  "description": "Interrogate product ideas, inspect existing projects, and turn discoveries into concrete plans and documentation.",
+  "author": {
+    "name": "Eastechs",
+    "url": "https://github.com/eastechs"
+  },
+  "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/project-discovery",
+  "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "keywords": [
+    "planning",
+    "discovery",
+    "interview",
+    "readme",
+    "requirements"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Project Discovery",
+    "shortDescription": "Turn project questions into plans and documentation",
+    "longDescription": "Use structured interviews to eliminate ambiguity before implementation, produce complementary inside-out and outside-in plans, inspect an existing codebase, and create a comprehensive evidence-based README.",
+    "developerName": "Eastechs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/eastechs/chatgpt-plugins",
+    "defaultPrompt": [
+      "Interrogate this idea before we plan its implementation.",
+      "Interview me about this project and write its README."
+    ]
+  }
+}

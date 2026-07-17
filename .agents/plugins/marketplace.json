@@ -1,0 +1,68 @@
+{
+  "name": "eastechs",
+  "interface": {
+    "displayName": "Eastechs Plugins"
+  },
+  "plugins": [
+    {
+      "name": "electron-desktop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/electron-desktop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "electron-ai-workspace",
+      "source": {
+        "source": "local",
+        "path": "./plugins/electron-ai-workspace"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "laravel-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/laravel-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "project-discovery",
+      "source": {
+        "source": "local",
+        "path": "./plugins/project-discovery"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

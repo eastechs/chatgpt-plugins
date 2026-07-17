@@ -1,0 +1,37 @@
+{
+  "name": "laravel-ai",
+  "version": "0.1.0",
+  "description": "Build Laravel AI agents, tools, and Vercel AI SDK streaming integrations.",
+  "author": {
+    "name": "Eastechs",
+    "url": "https://github.com/eastechs"
+  },
+  "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/laravel-ai",
+  "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "keywords": [
+    "laravel",
+    "ai",
+    "agents",
+    "tools",
+    "streaming",
+    "vercel-ai-sdk"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Laravel AI",
+    "shortDescription": "Build Laravel AI agents, tools, and chat streams",
+    "longDescription": "Create Laravel AI agent tools for read, write, and interactive workflows, then stream Laravel agents to Vercel AI SDK React clients with provider routing, attachments, session-lock handling, and post-stream hooks.",
+    "developerName": "Eastechs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/eastechs/chatgpt-plugins",
+    "defaultPrompt": [
+      "Add tools to this Laravel AI agent.",
+      "Stream this Laravel agent to a Vercel AI SDK client."
+    ]
+  }
+}

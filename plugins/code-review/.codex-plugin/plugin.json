@@ -1,0 +1,38 @@
+{
+  "name": "code-review",
+  "version": "0.1.0",
+  "description": "Review diffs and entire codebases, then iterate on implementation work until every relevant check is clean.",
+  "author": {
+    "name": "Eastechs",
+    "url": "https://github.com/eastechs"
+  },
+  "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/code-review",
+  "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "keywords": [
+    "code-review",
+    "audit",
+    "security",
+    "correctness",
+    "lint",
+    "testing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Code Review",
+    "shortDescription": "Review changes, audit codebases, and verify fixes",
+    "longDescription": "Run focused reviews of diffs and pull requests, dispatch parallel deep reviews across whole codebases, and execute iterative post-implementation checks covering plan completeness, tests, linting, security, performance, correctness, and project consistency.",
+    "developerName": "Eastechs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/eastechs/chatgpt-plugins",
+    "defaultPrompt": [
+      "Review these changes before I merge them.",
+      "Run a deep review of this codebase.",
+      "Verify this implementation until every check is clean."
+    ]
+  }
+}

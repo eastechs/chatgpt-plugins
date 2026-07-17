@@ -1,0 +1,38 @@
+{
+  "name": "electron-ai-workspace",
+  "version": "0.1.0",
+  "description": "Add multi-provider AI, model pricing, vector search, and persistent AI SDK conversations to Electron desktop apps.",
+  "author": {
+    "name": "Eastechs",
+    "url": "https://github.com/eastechs"
+  },
+  "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/electron-ai-workspace",
+  "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "keywords": [
+    "electron",
+    "ai-sdk",
+    "llm",
+    "rag",
+    "pgvector",
+    "chat"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Electron AI Workspace",
+    "shortDescription": "Add chat, RAG, providers, and pricing to Electron",
+    "longDescription": "Extend an Electron desktop foundation with multi-provider Vercel AI SDK routing, unified reasoning controls, LiteLLM pricing data, PGLite pgvector embeddings, semantic search, and UIMessage-native conversation persistence. Designed to layer on the Eastechs Electron Desktop plugin or an equivalent base stack.",
+    "developerName": "Eastechs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/eastechs/chatgpt-plugins",
+    "defaultPrompt": [
+      "Add a complete AI workspace layer to this Electron app.",
+      "Add multi-provider model routing and reasoning controls.",
+      "Add persistent chat and semantic document search."
+    ]
+  }
+}

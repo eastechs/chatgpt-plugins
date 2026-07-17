@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Interview"
+  short_description: "Interview a project and write its README"
+  default_prompt: "Use $project-interview to interview me about this codebase and write a comprehensive README."
+policy:
+  allow_implicit_invocation: false

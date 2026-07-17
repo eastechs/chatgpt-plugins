@@ -1,0 +1,38 @@
+{
+  "name": "electron-desktop",
+  "version": "0.1.0",
+  "description": "Build production Electron desktop apps with a local HTTP stack, embedded Postgres, secure settings, native integrations, and signed macOS distribution.",
+  "author": {
+    "name": "Eastechs",
+    "url": "https://github.com/eastechs"
+  },
+  "homepage": "https://github.com/eastechs/chatgpt-plugins/tree/main/plugins/electron-desktop",
+  "repository": "https://github.com/eastechs/chatgpt-plugins",
+  "keywords": [
+    "electron",
+    "desktop",
+    "pglite",
+    "drizzle",
+    "security",
+    "notarization"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Electron Desktop",
+    "shortDescription": "Build secure, native Electron desktop applications",
+    "longDescription": "Build and extend Electron desktop apps with Express, Vite, React Router, PGLite, Drizzle, per-launch loopback authentication, encrypted settings, native menus and windows, notifications, safe filesystem paths, and signed and notarized macOS distribution.",
+    "developerName": "Eastechs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/eastechs/chatgpt-plugins",
+    "defaultPrompt": [
+      "Build an Electron desktop app with the Trident stack.",
+      "Add a secure native capability to this Electron app.",
+      "Package and notarize this Electron app for macOS."
+    ]
+  }
+}
